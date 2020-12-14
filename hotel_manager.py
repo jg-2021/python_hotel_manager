@@ -34,7 +34,7 @@ def is_room_empty(floor, room):
     print(hotel.keys())
     # Is this floor in the hotel?
     if floor in hotel.keys():
-        #If so, is the room on this floor?
+        # If so, is the room on this floor?
         if room in hotel[floor].keys() and len(hotel[floor][room]) > 0:
             # We have a room, is it full?
             return False
